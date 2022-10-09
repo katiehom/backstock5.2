@@ -148,6 +148,9 @@ input.form-control:not(:placeholder-shown) {
 .input-container {
     max-width: 500px;
 }
+.inputSection {
+    margin-top: 150px;
+}
 .form-control::placeholder, .form-select::placeholder {
     color: rgb(0, 0, 121);
 }
@@ -539,7 +542,7 @@ button.noButton {
         display: inline;
         margin: 0;
     }
-    .table-container, .tableSection {
+    .table-container, .tableSection, .inputSection {
         margin-top: 100px;
     }
     table {
