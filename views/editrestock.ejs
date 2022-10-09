@@ -1,7 +1,7 @@
 <%- include('partials/header') %>
 <%- include('partials/nav') %>
 
-<body>
+<main>
     <div class="container input-container mt-3 col-lg-5">
         <h2 class="text-center restock-header">Edit Restock Item Info</h2>
         <form 
@@ -43,13 +43,14 @@
                     <a href="/restock" class="btn btn-lg btn-secondary shadow" id="newRestockCancel">Cancel</a>
                     <button type="submit" value="Save" id="newRestockSubmit" class="btn btn-lg btn-primary shadow">Submit</button>
                 </div>
-                </form>
+        </form>
                 <!-- Button trigger modal -->
                 <button class="btn btn-danger shadow" type="button" id="newRestockDelete" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <i class="fa fa-trash-can"></i>
                 </button>
             </div>
     </div>
+</main>
     
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
