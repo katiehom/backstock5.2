@@ -17,13 +17,13 @@ module.exports = {
     },
     // might need to change method name
     addRestock: async (req, res)=>{
-        res.render('addRestock.ejs') // need to make own page for list adding/editing
+        res.render('addrestock.ejs') // need to make own page for list adding/editing
     },
     // might need to change method name
     editRestock: async (req, res) => {
         try {
           const restockItem = await Restock.findById(req.params.id);
-          res.render("editRestock.ejs", { restockItem: restockItem, user: req.user }); // make own page
+          res.render("editrestock.ejs", { restockItem: restockItem, user: req.user }); // make own page
         } catch (err) {
           console.log(err);
         }
