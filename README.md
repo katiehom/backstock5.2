@@ -36,6 +36,7 @@ When changing some client-side JavaScript functions to forms with method overrid
 
 ## Versions
 Version 1 - MVP - Add items to a Backstock list which can be sorted, filtered, updated, and deleted.
+
 Version 2 - Added shopping list functionality for users to add unique items to their shopping list or to import them from the Backstock list. When importing, the quantity may be reflective of the ideal quantity and the quantity already on hand.
 
 ## Other Projects:
