@@ -30,6 +30,8 @@ Future iterations might include table sorting by expiration date, notifying user
 
 ## Lessons Learned:
 
+When changing some client-side JavaScript functions to forms with method override, I learned about methods submit the same form using different methods using button attributes such as `formaction` and `formmethod`. 
+
 I learned a lot about working with Bootstrap classes and when this was advantageous, and when it was better to use my own styling. Sorting tables, specifically dates, proved to be more difficult than first anticipated. Date rendering also presented challenges, and I ended up using Day.js which is a suggested replacement for the ever-popular Moment.js, which is considered legacy.
 
 ## Other Projects:
