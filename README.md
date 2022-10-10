@@ -26,13 +26,17 @@ Backstock is a home inventory app for tracking the items you have, their locatio
 Backstock is a full stack web application following MVC architecture. It runs on Node.js and Express for the backend and EJS to render the views. Users can sign up using passport authentication and begin adding new backstock items to their inventory. The inventory list can be sorted by several columns and filtered through typing in the Search bar. Individual items can be edited if quantities or other information needs to be updated. Conditional rendering helps users know when items need to be restocked or when they are expired.
 
 ## Optimizations
-Future iterations might include table sorting by expiration date, notifying users when expiration dates are approaching, filtering based on multiple categories, creating a shopping list, and automatically adding out-of-stock items to the shopping list.
+Future iterations might include notifying users when expiration dates are approaching, filtering items based on multiple categories, marking shopping list items as complete, and the ability to add (manually or automatically) all out-of-stock items to the shopping list.
 
 ## Lessons Learned:
 
+I learned a lot about working with Bootstrap classes and when this was advantageous, and when it was better to use my own styling. Sorting tables, specifically dates, proved to be more difficult than first anticipated. Date rendering also presented challenges, and I ended up using Day.js which is a suggested replacement for the ever-popular Moment.js, which is considered legacy.
+
 When changing some client-side JavaScript functions to forms with method override, I learned about methods submit the same form using different methods using button attributes such as `formaction` and `formmethod`. 
 
-I learned a lot about working with Bootstrap classes and when this was advantageous, and when it was better to use my own styling. Sorting tables, specifically dates, proved to be more difficult than first anticipated. Date rendering also presented challenges, and I ended up using Day.js which is a suggested replacement for the ever-popular Moment.js, which is considered legacy.
+## Versions
+Version 1 - MVP - Add items to a Backstock list which can be sorted, filtered, updated, and deleted.
+Version 2 - Added shopping list functionality for users to add unique items to their shopping list or to import them from the Backstock list. When importing, the quantity may be reflective of the ideal quantity and the quantity already on hand.
 
 ## Other Projects:
 
